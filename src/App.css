@@ -1,22 +1,54 @@
-.App {
-  text-align: center;
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-.App-logo {
-  height: 40vmin;
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: xx-large;
 }
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  width: 100%;
+  min-height: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  margin-bottom: 20px;
 }
 
-.App-link {
-  color: #09d3ac;
+.result-row {
+  display: flex;
+  align-items: center;
+}
+
+.player-name {
+  width: 200px;
+}
+
+.player-points {
+  width: 40px;
+}
+
+input,
+button {
+  height: 40px;
+  margin: 10px;
+  font-size: x-large;
 }
